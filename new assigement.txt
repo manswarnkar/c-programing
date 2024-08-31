@@ -1,0 +1,413 @@
+﻿
+question 1 check a number is positive integer and negative integer
+
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter any numer");
+    scanf("%d",&n);
+    if(n>0)
+    {
+        printf("positive number");
+    }
+    else if(n<0){
+        printf("negative number");
+    }
+    else{
+        printf("nither positive nor negative");
+    }
+    return 0;
+}
+
+
+
+question 2 check a number is even or odd
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num%2==0){
+        printf("number is even");
+    }
+    else{
+        printf("enter the odd");
+    }
+    return 0;
+}
+
+
+question 3 check number is greater than 50
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    if(num>50){
+        printf("this number is greater than 50");
+    }
+    else{
+        printf("this number is not greater than 50");
+    }
+    return 0;
+}
+
+
+question 4 check number is divisible by 5 or not
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the any num");
+    scanf("%d",&num);
+    if(num%5==0){
+        printf("number is divisible by 5");
+    }
+    else{
+        printf("number is not divisible");
+    }
+    return 0;
+}
+
+
+question 5  9*1.67-(6.21-5.6)+7.8-34+157
+
+
+
+# include<stdio.h>
+int main(){
+    int a=9;
+    float b=1.67;
+    float c=6.21;
+    float d=5.6;
+    float e=7.8;
+    int f=34;
+    int g=157;
+    float result=a*b-(c-d)+e-f+g;
+    printf("%f",result);
+    return 0;
+}
+
+
+
+question 6 a==apple
+
+
+# include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if (a=='a'){
+        printf("apple");
+    }
+    else
+    {
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+
+question 7 a==one
+
+# include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if (a=='a'){
+        printf("one");
+    }
+    else
+    {
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+
+
+question 8   t==tiger 
+
+#include<stdio.h>
+int main(){
+    char t;
+    printf("enter the character");
+    scanf(" %c",&t);
+    if(t=='t')
+    {
+    printf("tiger");
+    
+    }
+        else 
+        {
+            printf("input is not vaild");
+        }
+        return 0;
+}
+
+
+
+
+question 9== two number input addition 
+
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='a')
+    {
+     int a,b,c;
+     printf("enter the value of a,b,");
+    scanf ("%d %d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+    }
+    else{
+        printf("input is not valid");
+    }
+        return 0;
+} 
+
+ 
+question 10   two number input then substraction
+
+
+#include<stdio.h>
+int main(){
+    char s;
+    printf("enter the character");
+    scanf(" %c",&s);
+    if(s=='s')
+    {
+     int a,b,c;
+     printf("enter the value of a,b,");
+    scanf ("%d %d",&a,&b);
+    c=a-b;
+    printf("%d",c);
+    }
+    else{
+        printf("input is not valid");
+    }
+        return 0;
+} 
+
+
+
+question 11 this number is present in between 11 to 20
+
+
+
+
+ #include<stdio.h>
+ int main(){
+     int num;
+     printf("enrer any number");
+     scanf("%d",&num);
+     if(num>11&&num<20)
+     {
+         printf("number is present between 11to20");
+     }
+     else{
+        printf ("input is not present");
+     }
+     return 0;
+ }
+
+
+question 12 inpit number 5 input greater 36 passing marks pass otherwise fail
+
+
+#include <stdio.h>
+int main()
+{
+    int m;
+    printf(" enter m");
+scanf("%d",&m);
+if(m>36){
+    printf("pass");
+}
+else{
+    printf("fail");
+    
+}
+    return 0;
+}
+
+
+qiestion 13 input number 5 input find percentage greater 60 abover passing marks otherwise fail 
+
+
+
+#include <stdio.h>
+int main()
+{
+    int percentage;
+    printf("enter percentage");
+scanf("%d",&percentage);
+if(percentage>60)
+{
+    printf("pass");
+}
+else{
+    printf("fail");
+    
+}
+    return 0;
+}
+
+question 14 vowel and consonent
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter any one character");
+    scanf("%c",&a);
+    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+    {
+        printf ("vowel");
+    }
+    else{
+        printf("consonent");
+    }
+    return 0;
+}
+
+
+
+
+question 15  a:apple   b:ball  c:cat  d:dog
+
+
+
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='a')
+    {
+    printf("apple");
+    }
+    else if(a=='b')
+    {
+        printf("ball");
+    }
+    else if(a=='c')
+    {
+      printf("cat");  
+    }
+    else if(a=='d')
+    {
+        printf("dog");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+
+
+question 16 swap value without third variable
+
+
+#include<stdio.h>
+int main(){
+    int a=10;
+    int b=20;
+    printf("the value of a %d\n",a);
+    printf("the value of b %d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("swap value of a is %d\n",a);
+    printf("swap number of b is %d\n",b);
+    return 0;
+}
+
+
+question 17 swap value with third variable
+
+
+#include<stdio.h>
+int main(){
+    int a=10;
+    int b=20;
+    int c;
+    printf("the value of a is %d\n",a);
+    printf("the value of b is %d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("swap value of a is %d\n",a);
+    printf("swap value of b is %d\n",b);
+    return 0;
+} 
+
+
+question 18;;;even number 1to10
+
+
+#include<stdio.h>
+int main(){
+int a=1;
+while(a<10){
+if(a%2==0)
+{
+printf("%d",a);
+}
+a++;
+}
+return 0;
+}
+
+
+
+question 19 marksheet
+
+#include<stdio.h>
+int main(){
+    int  maths,science,computer,english,hindi,total;
+    float percentage;
+    printf("enter the marks of maths,science,computer,english,hindi:");
+    scanf("%d %d %d %d %d",&maths, &science ,&computer ,&english ,&hindi);
+    printf("total marks is %d\n",total);
+    percentage=(total/500.0)*100;
+    printf("percentage is %f\n",percentage);
+    if(percentage>80)
+    {
+        printf("a");
+    }
+    else if(percentage>=60)
+{
+   printf("b"); 
+}
+else if (percentage>=50)
+{
+   printf("c");
+}
+else if (percentage>=45)
+{
+    printf("d");
+}
+else if(percentage>=25)
+{
+printf("e");
+}
+    else
+ {   
+printf("f");
+}
+return 0;
+}
+
